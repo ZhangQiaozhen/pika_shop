@@ -1,0 +1,82 @@
+/* 全局样式表 */
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.setting {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.el-steps {
+    margin: 20px 0;
+}
+
+.el-step__title {
+    font-size: 14px;
+}
+
+.ql-editor {
+    min-height: 350px;
+}
+
+.el-step__head.is-process {
+    color: #FFC107;
+    border-color: #FFC107;
+}
+
+.el-step__title.is-process {
+    font-weight: 550;
+    color: #FFC107;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #f9ca3e;
+    border-color: #f9ca3e;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #f9ca3e;
+}
+
+.el-checkbox.is-bordered.is-checked {
+    border-color: #f9ca3e;
+}
+
+.el-tabs__item:hover {
+    color: #FFC107;
+}
+
+.el-tabs__item.is-active {
+    color: #FFC107;
+}
+
+.el-tabs__active-bar {
+    background-color: #FFC107;
+}
